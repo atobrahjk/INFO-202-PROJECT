@@ -1,0 +1,31 @@
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #e67e22;
+}
+
+h2 {
+    color: #c65d10;
+}
+
+main p {
+    font-size: 18px;
+}
+
+.recipe-btn {
+    background-color: #e67e22;
+    color: white;
+}
+
+.recipe-btn:hover {
+    background-color: #c65d10;
+    color: white;
+}
+
+footer {
+    color: gray;
+}
