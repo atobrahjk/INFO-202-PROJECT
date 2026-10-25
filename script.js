@@ -13,3 +13,11 @@ if (searchBtn) {
         }
     });
 }
+var clearBtn = document.getElementById("clearBtn");
+
+if (clearBtn) {
+    clearBtn.addEventListener("click", function() {
+        document.getElementById("recipeInput").value = "";
+        document.getElementById("results").textContent = "";
+    });
+}
